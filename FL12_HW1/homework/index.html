@@ -29,7 +29,7 @@
             <hr>
             <p>
                 Lorem ipsum dolor sit amet,
-                <a href="/test_link">test link</a>
+                <a href="#">test link</a>
                 adipiscing elit.
                 Nullam dignissim convallis est. Quisque aliquam.
                 <em>This is emphasized</em>.
@@ -70,7 +70,6 @@
               <h4>Heading 4</h4>
               <h5>Heading 5</h5>
               <h6>Heading 6</h6>
-
             </div>
             <hr>
             <div id="textFormats">
@@ -131,8 +130,8 @@
                 </dl>
               </div>
             <div>
-              <label>Select for learning</label>
-              <select>
+              <label for="selector">Select for learning</label>
+              <select id=selector>
                   <option value="JS">JS</option>
                   <option value="HTML">HTML</option>
                   <option value="CSS">CSS</option>
@@ -179,7 +178,7 @@
                     <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
                     <blockquote>
                         "So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read."
-                        <a href="/blockquote"> <br>Robert C. Martin (Uncle Bob)</a>
+                        <a href="#"> <br>Robert C. Martin (Uncle Bob)</a>
                     </blockquote>
                 </div>
                 <hr>
@@ -198,7 +197,8 @@
                         <input id=password type="text" name="password">
                       </fieldset>
                       <fieldset>
-                        <textarea cols="23" rows="5"></textarea>
+                        <label for="textfield"></label>
+                        <textarea id="textfield" cols="23" rows="5"></textarea>
                       </fieldset>
                       <fieldset>
                         <input type="submit" name="submit" value="Submit">
